@@ -1,10 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+/* FIRST NAVBAR */
+.logo a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    width: 10%;
+    background-color:  #374E62;
+}
+.logo1 a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    width: 10%;
+}
+.logo2 a{
+    color: white;
+    text-decoration: none; 
+}
+/* SECOND NAVBAR */
+.dropbtn {
+    background-color: white;
+    color: #374E62;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:  white;}
+
+
+.imagelogos{
+    margin: 0 20px 0 20px;
 }
 .card{
     text-align: center;
+    font: 3rem;
 }
 .container-fluid{
     height: 30px;
@@ -16,10 +69,45 @@
 .btn{
     color: white;
     border: 1px solid white;
+    width: 200px;
+    height: 3.2rem;
+    margin: 10px;
+    border-radius: 0;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: #374E62;
 }
 .container-fluid3{
     background-image: url(../images/d5.jpg);
     height: 10rem;
     color: white;
     text-align: center;
+}
+.dropdown-content{
+    background-color: white;
+}
+
+.container-box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: white;
+    width: 150%;
+}
+.box1{
+    margin-right: 30px;
+    padding: 10px;
+    list-style: none;
+}
+
+.box1 ul li {
+    list-style: none;
+}
+.box2 ul li {
+    list-style: none;   
+}
+.box1 ul li a:hover{
+    text-decoration: underline;
 }
