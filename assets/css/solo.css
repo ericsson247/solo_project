@@ -94,7 +94,6 @@
     flex-direction: row;
     margin: 10px;
     background-color: white;
-    width: 150%;
 }
 .box1{
     margin-right: 30px;
@@ -110,4 +109,38 @@
 }
 .box1 ul li a:hover{
     text-decoration: underline;
+}
+.box-5{
+    background-image: url(../images/m6.jpg);
+    padding: 4rem;
+    color: white;
+    height: 260px;
+}
+.btoon{
+    position: relative;
+    top: -130px;
+    left: 80%;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.box-6{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 236, 236);
+    margin-top: 250px;
+    padding: 50px 0 50px 0;
+}
+.footer ul li{
+    margin-left: 100px;
+    list-style: none;
+    color: black;
 }
