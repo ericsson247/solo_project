@@ -144,3 +144,24 @@
     list-style: none;
     color: black;
 }
+.straight_line{
+    border-bottom: 5px solid rgb(182, 180, 180);
+    
+}
+.footer2{
+    height: 200px;
+    background-color: rgb(238, 236, 236);
+}
+.sub_input{
+    padding: 8px 0 8px 4px;
+}
+.sub_button{
+    padding: 8px 10px 8px 10px;
+    background-color: rgb(6, 6, 24);
+    color: white;
+}
+.font_awesome{
+    padding: 20px;
+    word-spacing: 30px;
+
+}
